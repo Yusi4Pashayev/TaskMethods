@@ -19,7 +19,6 @@ namespace TaskMethods
                 Console.Write($"mass{i}=");
                 mass[i] = int.Parse(Console.ReadLine());
             }
-
             return mass;
         }
 
@@ -49,8 +48,6 @@ namespace TaskMethods
                 }
 
             }
-
-
             return newarray;
         }
 
@@ -62,8 +59,6 @@ namespace TaskMethods
             }
             Console.WriteLine();
         }
-
-
     }
 
     internal class NumberTasks
@@ -84,7 +79,6 @@ namespace TaskMethods
                 number = number / 10;
                 reverseNumber += a * (int)Math.Pow(10, i);
             }
-
             return reverseNumber;
         }
 

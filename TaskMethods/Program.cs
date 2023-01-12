@@ -25,7 +25,6 @@
             //var newnumber = numberTasks.EnterNumber();
 
             //Console.Write("Number is ");
-
             //numberTasks.Print(newnumber);
 
             //var reversenumber = numberTasks.ReserveNumber(newnumber);
