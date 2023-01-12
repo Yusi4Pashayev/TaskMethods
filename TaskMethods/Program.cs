@@ -12,6 +12,7 @@
             arrayTasks.Print(mass);
 
             var newarray = arrayTasks.FindNumbers(mass);
+
             Console.WriteLine("Verilen massivde kvadrat koku olan ededlerden ibaret yeni massviv:");
             arrayTasks.Print(newarray);
 
