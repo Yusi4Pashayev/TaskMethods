@@ -58,7 +58,7 @@ namespace TaskMethods
         {
             foreach (var item in massiv)
             {
-                Console.Write($"{item,5}");
+                Console.Write($"{item,3}");
             }
             Console.WriteLine();
         }
@@ -77,15 +77,15 @@ namespace TaskMethods
 
         internal int ReserveNumber(int number)
         {
-            int Reservenumber = 0, a;
+            int reverseNumber = 0, a;
             for (int i = (int)Math.Log10(number); i >= 0; i--)
             {
                 a = number % 10;
                 number = number / 10;
-                Reservenumber += a * (int)Math.Pow(10, i);
+                reverseNumber += a * (int)Math.Pow(10, i);
             }
 
-            return Reservenumber;
+            return reverseNumber;
         }
 
         internal void Print(int Number)
